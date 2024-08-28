@@ -35,5 +35,7 @@ public class Test1 extends BaseTest{
 		List<HashMap<String,String>> data = getJsonData("D:\\Selenium\\Scripts\\16AugFramework\\src\\test\\java\\Data\\data.json");
 		return new Object[][] {{data.get(0)},{data.get(1)}};
 	}
+
+	public void test(){}
 	
 }
